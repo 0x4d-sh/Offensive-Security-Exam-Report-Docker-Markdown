@@ -1,0 +1,2 @@
+#!/bin/bash
+pandoc templates/OSWE-exam-report-template_v1.md -o OSCP-OS-00000-Exam-Report.pdf --from markdown+yaml_metadata_block+raw_html --template eisvogel --table-of-contents --toc-depth 6 --number-sections --top-level-division=chapter --highlight-style breezedark
